@@ -1,0 +1,2 @@
+# MySpends
+Simple Money tracker.
