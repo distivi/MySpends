@@ -15,6 +15,8 @@
 		85CECB8A1F3F2BB400930BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CECB881F3F2BB400930BF3 /* LaunchScreen.storyboard */; };
 		85CECB951F3F2BB400930BF3 /* MySpendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CECB941F3F2BB400930BF3 /* MySpendsTests.swift */; };
 		85CECBA01F3F2BB400930BF3 /* MySpendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CECB9F1F3F2BB400930BF3 /* MySpendsUITests.swift */; };
+		85CECBAE1F3F30A300930BF3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CECBAD1F3F30A300930BF3 /* CoreDataManager.swift */; };
+		85CECBAF1F3F30A300930BF3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CECBAD1F3F30A300930BF3 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		85CECB9B1F3F2BB400930BF3 /* MySpendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CECB9F1F3F2BB400930BF3 /* MySpendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpendsUITests.swift; sourceTree = "<group>"; };
 		85CECBA11F3F2BB400930BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CECBAD1F3F30A300930BF3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 				85CECB881F3F2BB400930BF3 /* LaunchScreen.storyboard */,
 				85CECB8B1F3F2BB400930BF3 /* Info.plist */,
 				85CECB831F3F2BB400930BF3 /* MySpends.xcdatamodeld */,
+				85CECBAD1F3F30A300930BF3 /* CoreDataManager.swift */,
 			);
 			path = MySpends;
 			sourceTree = "<group>";
@@ -261,6 +265,7 @@
 			files = (
 				85CECB851F3F2BB400930BF3 /* MySpends.xcdatamodeld in Sources */,
 				85CECB7F1F3F2BB400930BF3 /* ViewController.swift in Sources */,
+				85CECBAE1F3F30A300930BF3 /* CoreDataManager.swift in Sources */,
 				85CECB7D1F3F2BB400930BF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CECBAF1F3F30A300930BF3 /* CoreDataManager.swift in Sources */,
 				85CECB951F3F2BB400930BF3 /* MySpendsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36CLWK4HAE;
 				INFOPLIST_FILE = MySpends/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Justan.MySpends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36CLWK4HAE;
 				INFOPLIST_FILE = MySpends/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Justan.MySpends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
