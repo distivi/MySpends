@@ -22,9 +22,12 @@ class MySpendsTests: XCTestCase {
     }
     
     func testMainViewController() {
-        let mainVC = ViewController()
+        let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! ViewController
+        
         
         XCTAssertNotNil(mainVC)
+        XCTAssertNotNil(mainVC.view)
+        XCTAssertNotNil(mainVC.titleLabel)
     }
     
 }
