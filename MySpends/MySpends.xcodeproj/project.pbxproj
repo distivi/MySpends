@@ -17,6 +17,7 @@
 		85CECBA01F3F2BB400930BF3 /* MySpendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CECB9F1F3F2BB400930BF3 /* MySpendsUITests.swift */; };
 		85CECBAE1F3F30A300930BF3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CECBAD1F3F30A300930BF3 /* CoreDataManager.swift */; };
 		85CECBAF1F3F30A300930BF3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CECBAD1F3F30A300930BF3 /* CoreDataManager.swift */; };
+		85DE771F1F9D343600467461 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DE771E1F9D343600467461 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		85CECB9F1F3F2BB400930BF3 /* MySpendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpendsUITests.swift; sourceTree = "<group>"; };
 		85CECBA11F3F2BB400930BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85CECBAD1F3F30A300930BF3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		85DE771E1F9D343600467461 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		85CECB7B1F3F2BB400930BF3 /* MySpends */ = {
 			isa = PBXGroup;
 			children = (
+				85DE771B1F9D340000467461 /* Content */,
 				85CECB7C1F3F2BB400930BF3 /* AppDelegate.swift */,
 				85CECB7E1F3F2BB400930BF3 /* ViewController.swift */,
 				85CECB801F3F2BB400930BF3 /* Main.storyboard */,
@@ -130,6 +133,30 @@
 				85CECBA11F3F2BB400930BF3 /* Info.plist */,
 			);
 			path = MySpendsUITests;
+			sourceTree = "<group>";
+		};
+		85DE771B1F9D340000467461 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				85DE771C1F9D340D00467461 /* Login */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		85DE771C1F9D340D00467461 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				85DE771D1F9D341600467461 /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		85DE771D1F9D341600467461 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85DE771E1F9D343600467461 /* LoginViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +293,7 @@
 				85CECB851F3F2BB400930BF3 /* MySpends.xcdatamodeld in Sources */,
 				85CECB7F1F3F2BB400930BF3 /* ViewController.swift in Sources */,
 				85CECBAE1F3F30A300930BF3 /* CoreDataManager.swift in Sources */,
+				85DE771F1F9D343600467461 /* LoginViewController.swift in Sources */,
 				85CECB7D1F3F2BB400930BF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

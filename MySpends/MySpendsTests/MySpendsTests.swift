@@ -22,12 +22,23 @@ class MySpendsTests: XCTestCase {
     }
     
     func testMainViewController() {
-        let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! ViewController
+        let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as! ViewController
         
         
         XCTAssertNotNil(mainVC)
         XCTAssertNotNil(mainVC.view)
         XCTAssertNotNil(mainVC.titleLabel)
+    }
+    
+    func testLoginViewController() {
+        let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        
+        XCTAssertNotNil(loginVC)
+        XCTAssertNotNil(loginVC.view)
+        XCTAssertNotNil(loginVC.loginTextField)
+        XCTAssertNotNil(loginVC.passwordTextField)
+        XCTAssertTrue(loginVC.passwordTextField.isSecureTextEntry)
+        
     }
     
 }
